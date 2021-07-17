@@ -1,0 +1,15 @@
+.app {
+	display: grid;
+	place-items: center;                                        /* Middle of the width */
+    height: 100vh;                                              /* Middle of the height */
+    background-color: #dadbd3;                              /* Off-grey */
+}
+
+.app_body {
+    display: flex;
+    background-color: #ededed;                              /* Slightly off-grey */
+    margin-top: -50px;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);     /* offset-x | offset-y | blur-radius | spread-radius | color */
+}
